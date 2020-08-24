@@ -3,3 +3,5 @@
 # 便于在硬件上通过原图和颜色对照表生成处理后的图像。
 
 # 效果：
+# 【处理前】：https://github.com/monologuesmw/auto-white-balance/blob/master/camera_photo_1.png
+# 【处理后】：https://github.com/monologuesmw/auto-white-balance/blob/master/img_balance_4_.jpg
