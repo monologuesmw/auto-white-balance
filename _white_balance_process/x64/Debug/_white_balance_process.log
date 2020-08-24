@@ -1,0 +1,35 @@
+﻿生成启动时间为 2020/8/20 10:01:28。
+     1>项目“e:\documents\visual studio 2015\Projects\_white_balance_process\_white_balance_process\_white_balance_process.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\enviroment\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\enviroment\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\enviroment\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\enviroment\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\enviroment\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(49): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(133): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(135): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(148): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(149): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(280): warning C4101: “right_position”: 未引用的局部变量
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(371): warning C4838: 从“uint64_t”转换到“float”需要收缩转换
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(371): warning C4244: “初始化”: 从“uint64_t”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(371): warning C4838: 从“int”转换到“float”需要收缩转换
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(371): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(372): warning C4838: 从“uint64_t”转换到“float”需要收缩转换
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(372): warning C4244: “初始化”: 从“uint64_t”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(372): warning C4838: 从“int”转换到“float”需要收缩转换
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(372): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(373): warning C4838: 从“int”转换到“float”需要收缩转换
+     1>e:\documents\visual studio 2015\projects\_white_balance_process\_white_balance_process\main.cpp(373): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"e:\documents\visual studio 2015\Projects\_white_balance_process\x64\Debug\_white_balance_process.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv_3.0\opencv\build\x64\vc14\lib /LIBPATH:\x64\vc14\lib /LIBPATH:\x64\vc15\lib /LIBPATH:..\..\3rdparty\pthreads\lib opencv_world320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"e:\documents\visual studio 2015\Projects\_white_balance_process\x64\Debug\_white_balance_process.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\documents\visual studio 2015\Projects\_white_balance_process\x64\Debug\_white_balance_process.lib" /MACHINE:X64 x64\Debug\main.obj
+         _white_balance_process.vcxproj -> e:\documents\visual studio 2015\Projects\_white_balance_process\x64\Debug\_white_balance_process.exe
+     1>已完成生成项目“e:\documents\visual studio 2015\Projects\_white_balance_process\_white_balance_process\_white_balance_process.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.73
