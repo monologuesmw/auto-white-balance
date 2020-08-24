@@ -5,3 +5,6 @@
 # 效果：
 ![image](https://github.com/monologuesmw/auto-white-balance/blob/master/camera_photo_1.png)
 ![image](https://github.com/monologuesmw/auto-white-balance/blob/master/img_balance_4_.jpg)
+
+# 对照表数值显示：
+![image](https://github.com/monologuesmw/auto-white-balance/blob/master/parallel%20tablelook-up%20table.png)
